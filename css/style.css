@@ -1,0 +1,106 @@
+/*
+@font-face {
+  font-family: Young;
+  src: url(Young.ttf)
+}
+*/
+/*
+body {
+  font-family: Young;
+}
+*/
+.button {
+  padding: 0 0.2em 0 0.2em;
+  height: 1.8em;
+  background-color: #76CDD7;
+  color: #FFF;
+  font-size: 26px;
+  border-radius: 10px;
+  border: 0px;
+  outline:none;
+}
+
+.button:active {
+  vertical-align: top;
+  padding: 6px 0 0 6px;
+  -webkit-box-shadow: inset 7px 7px 0px 0px #55B6BA;
+  -moz-box-shadow: inset 7px 7px 0px 0px #55B6BA;
+  box-shadow: inset 7px 7px 0px 0px #55B6BA;
+}
+
+.status-error {
+  width: 30px;
+  height: 30px;
+  background-color: #FF8080;
+  border-radius: 100%;
+  border: 0px;
+  outline:none;
+  disabled;
+}
+
+.status-warning {
+  width: 30px;
+  height: 30px;
+  background-color: #FFEF94;
+  border-radius: 100%;
+  border: 0px;
+  outline:none;
+}
+
+.status-ok {
+  width: 30px;
+  height: 30px;
+  background-color: #94D0A8;
+  border-radius: 100%;
+  border: 0px;
+  outline:none;
+}
+
+.tile {
+  width: 50px;
+  height: 50px;
+  background-color: #76CDD7;
+  border-radius: 10px;
+  border: 0px;
+  outline:none;
+}
+
+.tile:active {
+  vertical-align: top;
+  padding: 6px 0 0 6px;
+  -webkit-box-shadow: inset 7px 7px 0px 0px #55B6BA;
+  -moz-box-shadow: inset 7px 7px 0px 0px #55B6BA;
+  box-shadow: inset 7px 7px 0px 0px #55B6BA;
+}
+
+.list-group {
+  display:inline-block;
+}
+
+.list-group-item {
+  cursor: default;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  border: 0px;
+  border-bottom: 1.5px solid #BBEBEF;
+  transition: border-bottom 0.3s ease;
+  background-color: #76CDD7;
+}
+
+.list-group-item:last-child {
+  border-bottom: 0;
+}
+
+.form-control {
+  width: 268px;
+  border-radius: 5px;
+  padding: 0px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url("../img/dropdown.png") no-repeat right #FFFFFF;
+  height: 2em;
+  background-size: 2em;
+
+}
